@@ -19,7 +19,7 @@ createDashboard();
 
 dashboard.addEventListener('click', createDashboard);
 
-laudos.addEventListener('click', laudo);
+// laudos.addEventListener('click', laudo);
 
 
 

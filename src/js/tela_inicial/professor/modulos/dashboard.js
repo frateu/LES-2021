@@ -93,7 +93,6 @@ const createDashboard = () => {
                 <div class="infoTable">
                     <div class="infoTableHeader">
                         <h2>Laudos de Residentes</h2>
-                        <a href="#" class="btnViewAll">Ver Todos</a>
                     </div>
 
                     <table>
@@ -102,7 +101,6 @@ const createDashboard = () => {
                                 <td>Residente</td>
                                 <td>Paciente</td>
                                 <td>CPF</td>
-                                <td>Prontuario</td>
                                 <td>Laudo</td>
                                 
                             </tr>
@@ -113,7 +111,6 @@ const createDashboard = () => {
                                 <td>${residente1}</td>
                                 <td>${paciente1}</td>
                                 <td>${cpf1}</td>
-                                <td><a id="prontuario" href='#'>Abrir</a></td>
                                 <td><a id="laudo" href='/professor/validar_laudo/${id_laudo1}'>Validar</a></td>
                                 
                             </tr>
@@ -122,7 +119,6 @@ const createDashboard = () => {
                                 <td>${residente2}</td>
                                 <td>${paciente2}</td>
                                 <td>${cpf2}</td>
-                                <td><a id="prontuario" href='#'>Abrir</a></td>
                                 <td><a id="laudo" href='/professor/validar_laudo/${id_laudo2}'>Validar</a></td>
                                 
                             </tr>
@@ -130,34 +126,11 @@ const createDashboard = () => {
                                 <td>${residente3}</td>
                                 <td>${paciente3}</td>
                                 <td>${cpf3}</td>
-                                <td><a id="prontuario" href='#'>Abrir</a></td>
                                 <td><a id="laudo" href='/professor/validar_laudo/${id_laudo3}'>Validar</a></td>
                                 
                             </tr>
                         </tbody>
                     </table>
-
-                </div>
-
-                <div class="recentsViewer">
-                    <div class="pacientHeader">
-                        <h2>Laudos Validados Recentemente</h2>
-                    </div>
-
-                    <div class="recentsViewerData">
-                        <div class="data" id="1">
-                            <span>Joseph</span>
-                            <span>000.000.000-00</span>
-                        </div>
-                        <div class="data" id="2">
-                            <span>Luigi</span>
-                            <span>000.000.000-00</span>
-                        </div>
-                        <div class="data" id="3">
-                            <span>Mario</span>
-                            <span>000.000.000-00</span>
-                        </div>
-                    </div>
 
                 </div>
             </div>

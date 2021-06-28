@@ -10,7 +10,8 @@ const SolicitarExame = () => {
         cpf: 'CPF',
         data: 'Data Prevista de Exame',
         tipo: 'Tipo de Exame',
-        rec: 'Recomendações'
+        rec: 'Recomendações',
+        previo: 'Diagnostico Previo'
     };
 
     const date = new Date();
@@ -149,6 +150,24 @@ const SolicitarExame = () => {
     
     
     div.appendChild(textarea);
+    wrapper.appendChild(div);
+
+    //area de diagnotico previo
+    let textareaprevio = document.createElement('textarea');
+
+    div = document.createElement('div');
+    div.className = 'item-previo';
+
+    label = document.createElement('label');
+    label.textContent = textLabel.previo;
+    div.appendChild(label);
+    
+    
+    textareaprevio.setAttribute('name','diagnostico_previo');
+    textareaprevio.setAttribute('id','diagnostico_previo')
+    
+    
+    div.appendChild(textareaprevio);
     wrapper.appendChild(div);
 
     //botao de submit

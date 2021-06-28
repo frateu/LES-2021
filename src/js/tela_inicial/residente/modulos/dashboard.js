@@ -85,16 +85,6 @@ const createDashboard = () => {
 
                 <div class="card">
                     <div>
-                        <div class="numbers">??</div>
-                        <div class="cardName">Laudos Emitidos <span style="color:#269d8f">Hoje</span></div>
-                    </div>
-                    <div class="iconBox">
-                        <i class="far fa-smile"></i>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div>
                         <div class="numbers">${dataEditada}</div>
                         <div class="cardName">Data de Hoje</div>
                     </div>
@@ -127,7 +117,6 @@ const createDashboard = () => {
                             <tr>
                                 <td>Nome</td>
                                 <td>CPF</td>
-                                <td>Solicitação Exame</td>
                                 <td>Status</td>
                                 <td>Laudo</td>
                                 
@@ -138,7 +127,6 @@ const createDashboard = () => {
                             <tr>
                                 <td>${nome1}</td>
                                 <td>${cpf1}</td>
-                                <td><a id="solicitacao_exame" href='#'>Abrir</a></td>
                                 <td><span class="status">${status1}</span></td>
                                 <td><a id="laudo" href='/residente/emitir_laudo/${id_exame1}'>${botao1}</a></td>
                                 
@@ -147,7 +135,6 @@ const createDashboard = () => {
                             <tr>
                                 <td>${nome2}</td>
                                 <td>${cpf2}</td>
-                                <td><a id="solicitacao_exame" href='#'>Abrir</a></td>
                                 <td><span class="status">${status2}</span></td>
                                 <td><a id="laudo" href='/residente/emitir_laudo/${id_exame2}'>${botao2}</a></td>
                                 
@@ -155,7 +142,6 @@ const createDashboard = () => {
                             <tr>
                                 <td>${nome3}</td>
                                 <td>${cpf3}</td>
-                                <td><a id="solicitacao_exame" href='#'>Abrir</a></td>
                                 <td><span class="status">${status3}</span></td>
                                 <td><a id="laudo" href='/residente/emitir_laudo/${id_exame3}'>${botao3}</a></td>
                                 

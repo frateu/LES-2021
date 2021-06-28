@@ -50,16 +50,6 @@ const createDashboard = () => {
 
                 <div class="card">
                     <div>
-                        <div class="numbers">??</div>
-                        <div class="cardName">??</span></div>
-                    </div>
-                    <div class="iconBox">
-                        <i class="far fa-smile"></i>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div>
                         <div class="numbers">${total_validado}</div>
                         <div class="cardName">Laudos Prontos</div>
                     </div>
@@ -84,7 +74,6 @@ const createDashboard = () => {
                 <div class="infoTable">
                     <div class="infoTableHeader">
                         <h2>Pacientes Atendidos</h2>
-                        <a href="#" class="btnViewAll">Ver Todos</a>
                     </div>
 
                     <table>
@@ -123,31 +112,6 @@ const createDashboard = () => {
                             </tr>
                         </tbody>
                     </table>
-
-                </div>
-
-                <div class="recentsViewer">
-                    <div class="pacientHeader">
-                        <h2>Pacientes Diagnosticados Recentemente</h2>
-                    </div>
-
-                    <div class="recentsViewerData">
-                        <div class="data" id="1">
-                            <span>Jose</span>
-                            <span>Silva</span>
-                            <span>000.000.000-00</span>
-                        </div>
-                        <div class="data" id="2">
-                            <span>Jose</span>
-                            <span>Silva</span>
-                            <span>000.000.000-00</span>
-                        </div>
-                        <div class="data" id="3">
-                            <span>Jose</span>
-                            <span>Silva</span>
-                            <span>000.000.000-00</span>
-                        </div>
-                    </div>
 
                 </div>
             </div>
